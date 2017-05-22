@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="260" viewBox="0 0 260 260">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #20415f;
+      }
+
+      .cls-2 {
+        fill: #fdfdfd;
+      }
+
+      .cls-3 {
+        fill: #bbe2f8;
+      }
+
+      .cls-4 {
+        fill: #9ad9fc;
+      }
+
+      .cls-5 {
+        fill: #72cbfd;
+      }
+
+      .cls-6 {
+        fill: #4bbdfd;
+      }
+    </style>
+  </defs>
+  <circle id="Opt_Elipse_copy_2" data-name="Opt Elipse copy 2" class="cls-1" cx="130" cy="130" r="129"/>
+  <g id="Bar_Graph" data-name="Bar Graph">
+    <rect class="cls-2" x="58" y="137.906" width="22.375" height="48.094"/>
+    <rect id="Rectangle_99_copy" data-name="Rectangle 99 copy" class="cls-3" x="86.625" y="123.781" width="22.406" height="62.219"/>
+    <rect id="Rectangle_99_copy_2" data-name="Rectangle 99 copy 2" class="cls-4" x="115.281" y="104" width="22.375" height="82"/>
+    <rect id="Rectangle_99_copy_3" data-name="Rectangle 99 copy 3" class="cls-5" x="143.906" y="83.25" width="22.375" height="102.75"/>
+    <rect id="Rectangle_99_copy_4" data-name="Rectangle 99 copy 4" class="cls-6" x="172" y="62" width="22" height="124"/>
+  </g>
+</svg>
