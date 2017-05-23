@@ -1,0 +1,19 @@
+/* -- large-hero css -- */
+
+.large-hero {
+  position: relative;
+
+  &__text-content {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    max-width: 40rem;
+  }
+
+  &__title {
+    font-family: 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;
+    font-size: 2.5rem;
+    font-weight: 100;
+  }
+}
