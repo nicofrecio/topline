@@ -2,6 +2,15 @@
 
 .large-hero {
   position: relative;
+  padding-top: 40px;
+
+  @mixin atSmall {
+    padding-top: 0;
+  }
+
+  @mixin atMedium {
+    padding-top: 50px;
+  }
 
   &__text-content {
     position: absolute;
@@ -13,7 +22,11 @@
   &__title {
     font-family: 'Helvetica Neue', sans-serif;
     letter-spacing: 1px;
-    font-size: 2.5rem;
+    font-size: 1.3rem;
     font-weight: 100;
+
+    @mixin atSmall {
+      font-size: 2.5rem;
+    }
   }
 }
