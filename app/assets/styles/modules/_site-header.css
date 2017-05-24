@@ -13,6 +13,10 @@
     transform: translateX(-50%);
     width: 50%;
 
+    @mixin atSmall {
+      width: 34%;
+    }
+
     @mixin atMedium {
       position: absolute;
       width: 20%;

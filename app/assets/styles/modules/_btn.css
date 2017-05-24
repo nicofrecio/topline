@@ -11,12 +11,25 @@
     padding: 15px 30px;
     border: 1px solid $blueLink;
     background-color: $blueLink;
-    margin-left: 10px;
+    margin-left: 130px;
+    margin-top: 5px;
 
+      @mixin atSmall {
+        margin-top: 0;
+        margin-left: 10px;
+      }
+
+      @mixin atMedium {
+        margin-top: 0;
+        margin-left: 10px;
+      }
+      
     &:hover, active {
       background-color: $hoverColor;
       border: 1px solid $hoverColor;
       transition: background-color 0.2s, border 0.2s, color 0.2s;
+
+
     }
   }
 }

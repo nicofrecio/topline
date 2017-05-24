@@ -12,7 +12,7 @@
 
   li {
     float: left;
-    padding-right: 35px;
+    padding-right: 30px;
     padding-top: 18px;
 
     &:last-child {

@@ -10,10 +10,20 @@
 
   &__input {
     position: relative;
-    width: 40%;
+    width: 80%;
     padding: 15px 15px;
     border: 1px solid #ccc;
     float: left;
-    margin-left: 200px;
+    margin-left: 35px;
+
+    @mixin atSmall {
+      margin-left: 50px;
+      width: 57%;
+    }
+
+    @mixin atMedium {
+      width: 40%;
+      margin-left: 200px;
+    }
   }
 }

@@ -1,6 +1,6 @@
 .about-us {
   padding-bottom: 2rem;
-  
+
   &__member {
     position: relative;
     width: 90%;
@@ -8,6 +8,7 @@
     outline-offset: 0.1em;
     padding: 2%;
     cursor: pointer;
+    margin-bottom: 20px;
   }
 
   &--lastmember {
