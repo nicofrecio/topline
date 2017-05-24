@@ -1,0 +1,41 @@
+.primary-nav {
+
+  &--right {
+    float: right;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    @mixin clearfix;
+  }
+
+  li {
+    float: left;
+    padding-right: 35px;
+    padding-top: 18px;
+
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+
+  a {
+    color: $headlineColor;
+    text-transform: uppercase;
+    font-family: 'Avenir', sans-serif;
+    font-size: .92rem;
+    font-weight: 100;
+    padding: 10px 15px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #fff;
+
+    &:hover {
+      color: #3c3d3e;
+      background-color: $blueBg;
+      border: 1px solid $blueBg;
+      transition: background-color 0.2s, border 0.2s, color 0.2s;
+    }
+  }
+}

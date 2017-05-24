@@ -402,7 +402,8 @@ li {
   }
 @media (min-width: 1200px ) {
 .large-hero__text-content {
-      max-width: 50rem
+      max-width: 50rem;
+      left: 80px
   }
   }
 .large-hero__title {
@@ -418,7 +419,7 @@ li {
   }
 @media (min-width: 1200px ) {
 .large-hero__title {
-      font-size: 3.3rem
+      font-size: 3.2rem
   }
   }
 .btn {
@@ -449,6 +450,9 @@ li {
   margin-left: auto;
   margin-right: auto;
 }
+.wrapper--wide {
+    max-width: 1140px;
+  }
 .page-section {
   padding: 4.5rem 0;
 }
@@ -752,3 +756,94 @@ footer {
   height: 150px;
   text-align: center;
 }
+.site-header {
+  padding: 21px 0;
+  background-color: #fff;
+  height: 4.5rem;
+
+
+}
+@media (min-width: 724px ) {
+.site-header {
+    height: 6.25rem
+
+
+}
+  }
+.site-header__logo {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 50%;
+  }
+@media (min-width: 724px ) {
+.site-header__logo {
+      position: absolute;
+      width: 20%;
+      left: auto;
+      -webkit-transform: translateX(0);
+              transform: translateX(0)
+  }
+  }
+.site-header__menu-icon {
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    position: absolute;
+    top: 25px;
+    right: 15px;
+  }
+@media (min-width: 724px ) {
+.site-header__menu-icon {
+      display: none
+  }
+  }
+.site-header__menu-content {
+    display: none;
+  }
+@media (min-width: 724px ) {
+.site-header__menu-content {
+      display: block
+  }
+  }
+.primary-nav--right {
+    float: right;
+  }
+.primary-nav ul {
+    margin: 0;
+    padding: 0;
+  }
+.primary-nav ul::after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+  }
+.primary-nav li {
+    float: left;
+    padding-right: 35px;
+    padding-top: 18px;
+  }
+.primary-nav li:last-child {
+      padding-right: 0;
+    }
+.primary-nav a {
+    color: #737272;
+    text-transform: uppercase;
+    font-family: 'Avenir', sans-serif;
+    font-size: .92rem;
+    font-weight: 100;
+    padding: 10px 15px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #fff;
+  }
+.primary-nav a:hover {
+      color: #3c3d3e;
+      background-color: #e4f4fe;
+      border: 1px solid #e4f4fe;
+      -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+      transition: background-color 0.2s, border 0.2s, color 0.2s;
+    }

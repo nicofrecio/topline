@@ -21,6 +21,7 @@
 
     @mixin atXlarge {
       max-width: 50rem;
+      left: 80px;
     }
   }
 
@@ -35,7 +36,7 @@
     }
 
     @mixin atXlarge {
-      font-size: 3.3rem;
+      font-size: 3.2rem;
     }
   }
 }
