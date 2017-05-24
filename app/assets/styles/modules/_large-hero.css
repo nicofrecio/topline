@@ -3,6 +3,7 @@
 .large-hero {
   position: relative;
   padding-top: 40px;
+  border-top: 1px solid #ccc;
 
   @mixin atSmall {
     padding-top: 0;
@@ -17,6 +18,10 @@
     top: 0;
     left: 20px;
     max-width: 40rem;
+
+    @mixin atXlarge {
+      max-width: 50rem;
+    }
   }
 
   &__title {
@@ -27,6 +32,10 @@
 
     @mixin atSmall {
       font-size: 2.5rem;
+    }
+
+    @mixin atXlarge {
+      font-size: 3.3rem;
     }
   }
 }

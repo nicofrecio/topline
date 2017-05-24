@@ -1,0 +1,28 @@
+.row {
+  @mixin clearfix;
+
+  &__4 {
+    float: left;
+    width: 25%;
+  }
+  &__medium-6 {
+    width: 100%;
+    float: left;
+    margin: 0;
+  }
+
+  &__12 {
+    width: 100%;
+  }
+
+  @mixin atMedium {
+    &__medium-6 {
+      width: 50%;
+    }
+  }
+
+
+  &--v-gutter {
+    margin-top: 60px;
+  }
+}
