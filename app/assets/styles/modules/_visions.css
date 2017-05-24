@@ -1,0 +1,10 @@
+.visions {
+  padding-top: 1.4em;
+  
+  &__icon {
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
