@@ -40,6 +40,14 @@
     padding-right: 45px;
   }
 
+  &--gutters-medium {
+    margin-right: -45px;
+  }
+
+  &--gutters-medium > div {
+    padding-right: 45px;
+  }
+
   &--v-gutter {
     margin-top: 60px;
   }

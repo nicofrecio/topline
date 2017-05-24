@@ -1,0 +1,19 @@
+.contact {
+ @mixin clearfix;
+ padding-bottom: 2rem;
+
+  &__form {
+    font-family: 'Avenir', sans-serif;
+    font-size: 15px;
+    padding-top: 20px;
+  }
+
+  &__input {
+    position: relative;
+    width: 40%;
+    padding: 15px 15px;
+    border: 1px solid #ccc;
+    float: left;
+    margin-left: 200px;
+  }
+}

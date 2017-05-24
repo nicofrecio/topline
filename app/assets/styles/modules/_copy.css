@@ -1,7 +1,7 @@
 .copy {
   color: $bodyCopy;
 
-  &--intro {
+  &__intro {
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 1.21rem;
     font-weight: 100;
@@ -16,15 +16,34 @@
     }
   }
 
-  &--description {
+  &__description {
     font-family: 'Helvetica', sans-serif;
     font-size: .95rem;
     line-height: 1.4;
     font-weight: 100;
 
     & li {
-      list-style: none;
       margin-left: 0;
+    }
+  }
+
+  &--news {
+    color: #999;
+  }
+
+  &__press-email {
+    padding-top: 40px;
+    font-weight: 100;
+    text-align: center;
+    font-size: .95rem;
+    color: #999;
+    text-transform: uppercase;
+  }
+
+  &__contact-email {
+    color: $blueLink;
+    &:hover {
+      color: $hoverColor;
     }
   }
 }

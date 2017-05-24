@@ -4,11 +4,19 @@
   font-family: 'Avenir', sans-serif;
   text-decoration: none;
   display: inline-block;
+  cursor: pointer;
 
   &--signup {
     color: #fff;
     padding: 15px 30px;
     border: 1px solid $blueLink;
     background-color: $blueLink;
+    margin-left: 10px;
+
+    &:hover, active {
+      background-color: $hoverColor;
+      border: 1px solid $hoverColor;
+      transition: background-color 0.2s, border 0.2s, color 0.2s;
+    }
   }
 }
