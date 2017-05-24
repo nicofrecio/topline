@@ -4,4 +4,8 @@
   &--blue {
     background-color: $blueBg;
   }
+
+  &--rule {
+    border-bottom: 1px solid #ccc;
+  }
 }

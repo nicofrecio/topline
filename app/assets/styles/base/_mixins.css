@@ -26,6 +26,8 @@
   &::after {
     content: "";
     clear: both;
-    display: table;
+    display: block;
+    height: 0;
+    visibility: hidden;
   }
 }
