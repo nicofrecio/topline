@@ -23,9 +23,9 @@
     @mixin atMedium {
       float: left;
       margin-bottom: 0;
-      padding-right: 10px;
+      padding-top: 18px;
     }
-    
+
   }
 
   a {
@@ -38,6 +38,16 @@
     border-radius: 4px;
     background-color: #fff;
     border: 1px solid #fff;
+
+    @mixin atMedium {
+
+      &.current-link {
+        color: #3c3d3e;
+        background-color: $blueBg;
+        border: 1px solid $blueBg;
+        transition: background-color 0.2s, border 0.2s, color 0.2s;
+      }
+    }
 
     &:hover {
       color: #3c3d3e;

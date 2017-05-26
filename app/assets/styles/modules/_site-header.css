@@ -1,16 +1,26 @@
 .site-header {
+  position: absolute;
   padding: 21px 0;
+  width: 100%;
+  z-index: 2;
   background-color: #fff;
   height: 4.5rem;
-  z-index: 2;
+  border-bottom: 1px solid #ccc;
+  transition: transform .3s ease-out;
 
   &--expanded {
     height: 260px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.85);
   }
 
   @mixin atMedium {
-    height: 6.25rem;
+    height: 6rem;
+    position: fixed;
+
+    &--shorten {
+      padding-top: 35px;
+      transform: translateY(-25px);
+    }
   }
 
   &__logo {
@@ -18,6 +28,7 @@
     left: 50%;
     transform: translateX(-50%);
     width: 50%;
+    transition: transform .3s ease-out;
 
     @mixin atSmall {
       width: 34%;
@@ -28,7 +39,14 @@
       width: 20%;
       left: auto;
       transform: translateX(0);
+
+
+      .site-header--shorten & {
+        padding-top: 2px;
+        transform: scale(.7);
+      }
     }
+
   }
 
   &__menu-icon {

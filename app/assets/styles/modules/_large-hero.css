@@ -2,25 +2,29 @@
 
 .large-hero {
   position: relative;
-  padding-top: 40px;
-  border-top: 1px solid #ccc;
+  padding-top: 100px;
 
   @mixin atSmall {
     padding-top: 0;
   }
 
   @mixin atMedium {
-    padding-top: 50px;
+    padding-top: 100px;
   }
 
   &__text-content {
     position: absolute;
-    top: 0;
+    top: 80px;
     left: 20px;
     max-width: 40rem;
 
     @mixin atSmall {
       max-width: 30rem;
+    }
+
+    @mixin atMedium {
+      top: 90px;
+      left: 40px;
     }
     @mixin atXlarge {
       max-width: 50rem;
@@ -36,6 +40,10 @@
 
     @mixin atSmall {
       font-size: 1.6rem;
+    }
+
+    @mixin atMedium {
+      font-size: 2rem;
     }
 
     @mixin atXlarge {
